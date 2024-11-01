@@ -1,0 +1,41 @@
+/* BEGIN pricing table general styles */
+
+.svs_price_plans {
+    width: 100%;
+}
+
+.svs_price_plan {
+    list-style-type: none !important;
+}
+.svs_price_plan img {
+    vertical-align: middle;
+    height: 40px;
+    margin-top: -3px;
+}
+
+.svs_price_plan li div {
+    position: relative;
+}
+
+.svs_price_plan {
+    position: relative;
+    min-height: 100px;
+    float: left;
+    margin: 5px;
+}
+
+.svs_pt_clearfix:after, .svs_pt_clearfix:before {
+    content: '';
+    display: block;
+}
+
+.svs_pt_clearfix:after {
+    clear: both;
+}
+
+.svs_pt_clearfix {
+    zoom: 1; /* ie 6/7 */
+}
+
+/* END pricing table general styles */
+
